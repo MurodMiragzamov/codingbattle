@@ -130,6 +130,54 @@ p {
   background: #FBAF85;
 }
 
+@media (max-width: 770px) {
+  .nav-section {
+    background: #141414;
+    background-image: none;
+    background-image: url(../img/Bitmap2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .product-header2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 410px;
+  }
+  .product-p {
+    margin: 0 auto;
+    max-width: 310px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.75;
+    margin-bottom: 45px;
+  }
+  .newProduct {
+    padding-top: 145px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .audiop {
+    margin-left: 100px;
+  }
+  .korzinka {
+    margin-right: 40px;
+  }
+  .burger {
+    display: inline-block;
+    left: 40px;
+    top: 35px;
+  }
+}
+
 @font-face {
   font-family: 'Manrope';
   src: local("Manrope Semibold"), local("Manrope-Semibold"), url("Manropesemibold.woff2") format("woff2"), url("Manropesemibold.woff") format("woff"), url("Manropesemibold.ttf") format("truetype");
