@@ -41,6 +41,11 @@ p{
     display: none;
    
 }
+
+.nav-item a:hover{
+    color: #D87D4A;
+    transition: 0.5s;
+}
 .audiop{
     max-width: 143px;
     height: 25px;
@@ -127,6 +132,110 @@ max-width: 410px;
     background:  #FBAF85;
 }
 
+// predposledniy section
+
+.bringing-section .container{
+    display: flex;
+    justify-content: space-between;
+
+    .content-header{
+        max-width: 445px;
+        font-size: 40px;
+        line-height: 44px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000;
+        margin-top: 150px;
+        margin-bottom: 35px;
+
+
+        span{
+            color: #D87D4A;
+        }
+    }
+
+    .content-p{
+        max-width: 389px;
+        line-height: 25px;
+        font-size: 15px;
+        font-weight: normal;
+        opacity: 0.5;
+        color: #000;
+
+    }
+
+    .humanbg{
+        width: 540px;
+        height: 588px;
+
+        background-image: url(../img/BitmapHuman.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 1px solid white;
+        border-radius: 7px;
+
+    }
+
+}
+
+
+
+
+//code biringing
+
+@media(max-width:770px){
+    .bringing-section .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    
+        .content-header{
+            max-width: 573px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #000;
+            margin-top: 70px;
+            margin-bottom: 35px;
+    
+    
+            span{
+                color: #D87D4A;
+            }
+        }
+    
+        .content-p{
+            margin: 0 auto;
+            max-width: 480px;
+            font-weight: normal;
+            opacity: 0.5;
+            color: #000;
+    
+        }
+    
+        .humanbg{
+            width: 687px;
+            height: 300px;
+            background-image: none;
+            background-image: url(../img/BitmapHumanu.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 1px solid white;
+            border-radius: 7px;
+    
+        }
+    
+    }
+
+}
+
+
+
+
+//nav responsive codes
+
 @media(max-width:770px){
     .nav-section{
         background: #141414;
@@ -148,7 +257,7 @@ max-width: 410px;
         margin-top: 25px;
         margin-bottom: 25px;
         max-width: 410px;
-        
+
         }
         .product-p{
             margin: 0 auto;

@@ -41,6 +41,12 @@ p {
   display: none;
 }
 
+.nav-item a:hover {
+  color: #D87D4A;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .audiop {
   max-width: 143px;
   height: 25px;
@@ -128,6 +134,96 @@ p {
 
 .product-link:hover {
   background: #FBAF85;
+}
+
+.bringing-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bringing-section .container .content-header {
+  max-width: 445px;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 150px;
+  margin-bottom: 35px;
+}
+
+.bringing-section .container .content-header span {
+  color: #D87D4A;
+}
+
+.bringing-section .container .content-p {
+  max-width: 389px;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: normal;
+  opacity: 0.5;
+  color: #000;
+}
+
+.bringing-section .container .humanbg {
+  width: 540px;
+  height: 588px;
+  background-image: url(../img/BitmapHuman.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+@media (max-width: 770px) {
+  .bringing-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .bringing-section .container .content-header {
+    max-width: 573px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 70px;
+    margin-bottom: 35px;
+  }
+  .bringing-section .container .content-header span {
+    color: #D87D4A;
+  }
+  .bringing-section .container .content-p {
+    margin: 0 auto;
+    max-width: 480px;
+    font-weight: normal;
+    opacity: 0.5;
+    color: #000;
+  }
+  .bringing-section .container .humanbg {
+    width: 687px;
+    height: 300px;
+    background-image: none;
+    background-image: url(../img/BitmapHumanu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 7px;
+  }
 }
 
 @media (max-width: 770px) {
