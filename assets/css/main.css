@@ -12,6 +12,8 @@
 .container {
   max-width: 1150px;
   margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 p {
@@ -25,6 +27,7 @@ p {
   background-repeat: no-repeat;
   background-position: 100% 0px;
   padding-bottom: 158px;
+  height: 730px;
 }
 
 .container {
@@ -110,7 +113,21 @@ p {
   font-size: 15px;
   line-height: 25px;
   opacity: 0.75;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
+}
+
+.product-link {
+  background: #D87D4A;
+  width: 160px;
+  height: 48px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+}
+
+.product-link:hover {
+  background: #FBAF85;
 }
 
 @font-face {
