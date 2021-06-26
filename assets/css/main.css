@@ -21,9 +21,10 @@ p {
 .nav-section {
   background: #141414;
   background-image: url(../img/Bitmap.png);
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: 100% 0px;
+  padding-bottom: 158px;
 }
 
 .container {
@@ -90,6 +91,26 @@ p {
   font-weight: normal;
   line-height: 19px;
   letter-spacing: 10px;
+}
+
+.product-header2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 410px;
+}
+
+.product-p {
+  max-width: 310px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.75;
+  margin-bottom: 40px;
 }
 
 @font-face {
