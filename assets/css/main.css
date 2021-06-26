@@ -1,0 +1,136 @@
+* {
+  font-family: 'Manrope';
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+p {
+  opacity: 60%;
+}
+
+.nav-section {
+  background: #141414;
+  background-image: url(../img/Bitmap.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 0px;
+}
+
+.container {
+  position: relative;
+}
+
+.burger {
+  position: absolute;
+  max-width: 16px;
+  height: 15px;
+  display: none;
+}
+
+.audiop {
+  max-width: 143px;
+  height: 25px;
+}
+
+.audiophile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+}
+
+.korzinka {
+  max-width: 24px;
+  height: 20px;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-list li {
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0 17px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #F2F2F2;
+  opacity: 30%;
+}
+
+.newProduct {
+  padding-top: 125px;
+}
+
+.product-span {
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 19px;
+  letter-spacing: 10px;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local("Manrope Semibold"), local("Manrope-Semibold"), url("Manropesemibold.woff2") format("woff2"), url("Manropesemibold.woff") format("woff"), url("Manropesemibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local("Manrope Medium"), local("Manrope-Medium"), url("Manropemedium.woff2") format("woff2"), url("Manropemedium.woff") format("woff"), url("Manropemedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local("Manrope Thin"), local("Manrope-Thin"), url("Manropethin.woff2") format("woff2"), url("Manropethin.woff") format("woff"), url("Manropethin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local("Manrope Light"), local("Manrope-Light"), url("Manropelight.woff2") format("woff2"), url("Manropelight.woff") format("woff"), url("Manropelight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local("Manrope Regular"), local("Manrope-Regular"), url("Manroperegular.woff2") format("woff2"), url("Manroperegular.woff") format("woff"), url("Manroperegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local("Manrope Bold"), local("Manrope-Bold"), url("Manropebold.woff2") format("woff2"), url("Manropebold.woff") format("woff"), url("Manropebold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+/*# sourceMappingURL=main.css.map */
