@@ -410,6 +410,10 @@ max-width: 410px;
 //nav responsive codes
 
 @media(max-width:770px){
+    .container{
+        max-width: 95%;
+        width: 95%;
+    }
     .nav-section{
         background: #141414;
         background-image: none;
@@ -468,6 +472,11 @@ max-width: 410px;
 
 @media(max-width:426px){
 
+    .container{
+        max-width: 95%;
+        width: 95%;
+    }
+
     .footer-section .container{
         text-align: center;
     }
@@ -514,15 +523,15 @@ max-width: 410px;
     }
     .insta{
         bottom: -20px;
-        right: 150px;
+        right: 160px;
     }
     .twitt{
         bottom: -20px;
-        right: 190px;
+        right: 200px;
     }
     .face{
         bottom: -20px;
-        right: 232px;
+        right: 242px;
     }
 
     .footer-img{
@@ -567,6 +576,34 @@ max-width: 410px;
    }
 
 }
+
+
+@media (max-width:376px){
+    .footer-img{
+       right: 500px;
+       
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //===================================================================================================================================
 //=================================================
 
